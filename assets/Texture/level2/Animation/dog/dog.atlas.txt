@@ -1,0 +1,76 @@
+
+dog.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dog/body
+  rotate: false
+  xy: 164, 74
+  size: 252, 163
+  orig: 254, 166
+  offset: 1, 2
+  index: -1
+dog/eye_l
+  rotate: true
+  xy: 13, 401
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+dog/eye_r
+  rotate: false
+  xy: 2, 408
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+dog/head
+  rotate: true
+  xy: 2, 83
+  size: 154, 160
+  orig: 156, 162
+  offset: 1, 1
+  index: -1
+dog/jaw
+  rotate: false
+  xy: 2, 284
+  size: 141, 83
+  orig: 143, 86
+  offset: 1, 2
+  index: -1
+dog/leg_b_bot
+  rotate: true
+  xy: 31, 372
+  size: 44, 56
+  orig: 51, 56
+  offset: 0, 0
+  index: -1
+dog/leg_b_top
+  rotate: true
+  xy: 195, 361
+  size: 55, 96
+  orig: 55, 97
+  offset: 0, 0
+  index: -1
+dog/leg_f_bot
+  rotate: true
+  xy: 89, 369
+  size: 47, 104
+  orig: 48, 104
+  offset: 1, 0
+  index: -1
+dog/leg_f_top
+  rotate: true
+  xy: 293, 351
+  size: 65, 103
+  orig: 66, 103
+  offset: 0, 0
+  index: -1
+props/meat
+  rotate: false
+  xy: 145, 239
+  size: 210, 110
+  orig: 221, 148
+  offset: 6, 19
+  index: -1
