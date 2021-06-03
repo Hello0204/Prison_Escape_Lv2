@@ -196,7 +196,6 @@ cc.Class({
         cc.tween(this.chooseOptionVertical)
             .call(() => {
                 this.chooseOptionVertical.active = true;
-                this.chooseOptionVertical.setPosition(0, -860);
             })
             .to(0.2, { scale: 0.8 })
             .to(0.2, { scale: 1 })
@@ -207,8 +206,6 @@ cc.Class({
         cc.tween(this.chooseOptionHorizontal)
             .call(() => {
                 this.chooseOptionHorizontal.active = true;
-                this.chooseOptionHorizontal.setPosition(720, 0);
-
             })
             .to(0.2, { scale: 0.8 })
             .to(0.2, { scale: 1 })
@@ -243,17 +240,6 @@ cc.Class({
 
     chooseOption3() {
         this.lupin.setAnimation(0, 'level_2/lv2_stg1_bone', true);
-        // if (this.screenVertical == true) {
-        //     this.dogRun();
-        //     this.bgMove();
-        //     this.lupinWalk();
-        // }
-
-        // if (this.screenHorizontal == true) {
-        //     this.dogRun();
-        //     this.bgMove();
-        //     this.lupinWalk();
-        // }
         this.dogRun();
         this.bgMove();
         this.lupinWalk();
@@ -386,7 +372,7 @@ cc.Class({
     bgMove() {
         cc.tween(this.verticalCam)
             .delay(4.2)
-            .to(5, { x: 840 })
+            .to(4.2, { x: 840 })
             .start()
     },
 
